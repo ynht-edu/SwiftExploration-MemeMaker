@@ -56,6 +56,20 @@ class ViewController: UIViewController {
         linkSegmentToCaption()
     }
     
+    @IBAction func dragTopLabel(_ sender: UIPanGestureRecognizer) {
+        if sender.state == .changed {
+            topCaptionLabel.center = sender.location(in: view)
+        }
+        
+    }
+    
+    @IBAction func dragBottomLabel(_ sender: UIPanGestureRecognizer) {
+        if sender.state == .changed {
+            bottomCaptionLabel.center = sender.location(in: view)
+        }
+    }
+    
+    
     func linkSegmentToCaption() {
         topCaptionLabel.text = topChoices[topSegmentedControl.selectedSegmentIndex].captionText
         bottomCaptionLabel.text = bottomChoices[bottomSegmentedControl.selectedSegmentIndex].captionText
