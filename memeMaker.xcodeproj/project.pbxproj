@@ -16,6 +16,7 @@
 		24F0B8C82B5E37C200569684 /* memeMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0B8C72B5E37C200569684 /* memeMakerTests.swift */; };
 		24F0B8D22B5E37C200569684 /* memeMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0B8D12B5E37C200569684 /* memeMakerUITests.swift */; };
 		24F0B8D42B5E37C200569684 /* memeMakerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0B8D32B5E37C200569684 /* memeMakerUITestsLaunchTests.swift */; };
+		24F0B8E12B5E3E8200569684 /* CaptionOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0B8E02B5E3E8200569684 /* CaptionOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		24F0B8CD2B5E37C200569684 /* memeMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memeMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F0B8D12B5E37C200569684 /* memeMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memeMakerUITests.swift; sourceTree = "<group>"; };
 		24F0B8D32B5E37C200569684 /* memeMakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memeMakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24F0B8E02B5E3E8200569684 /* CaptionOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				24F0B8B92B5E37C100569684 /* Assets.xcassets */,
 				24F0B8BB2B5E37C100569684 /* LaunchScreen.storyboard */,
 				24F0B8BE2B5E37C100569684 /* Info.plist */,
+				24F0B8E02B5E3E8200569684 /* CaptionOption.swift */,
 			);
 			path = memeMaker;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24F0B8B52B5E37C000569684 /* ViewController.swift in Sources */,
+				24F0B8E12B5E3E8200569684 /* CaptionOption.swift in Sources */,
 				24F0B8B12B5E37C000569684 /* AppDelegate.swift in Sources */,
 				24F0B8B32B5E37C000569684 /* SceneDelegate.swift in Sources */,
 			);
